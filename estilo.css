@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Concert One', cursive;
+}
+.logo {
+    height: 40px;
+    width: auto;
+    
+    }
+
+/* Navbar */
+Navbar {
+    display: flex;
+    background-color: rgba(70, 66, 66, 0.6);
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: bisque;
+}
+
+#navbar .navbar-container {
+width: 90%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 0;
+
+}
+
+#navbar .navbar-container ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+
+}
+
+#navbar .navbar-container ul li {
+    padding: 0 20px;
+}
+
+/*Showcase*/
+#showcase {
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: url('./img/background.webp') center center/cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode:color ;
+}
+
+/*Footer*/
+
+#footer {
+    background: black;
+    color: white;
+    
+}
+
+#footer .socials i {
+    
+    padding: 20px;
+   
+    
+    margin-left: 0%;
+
+}
+
+#footer .rigths {
+    display: flex;
+    width: 25%;
+    margin: auto;
+}
+
+
+
