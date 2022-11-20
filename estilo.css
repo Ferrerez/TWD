@@ -6,6 +6,7 @@ padding: 0;
 
 body {
     font-family: 'Concert One', cursive;
+    margin: 0;
 }
 .logo {
     height: 40px;
@@ -13,8 +14,8 @@ body {
     
     }
 
-/* Navbar */
-Navbar {
+/* Menu */
+menu {
     display: flex;
     background-color: rgba(70, 66, 66, 0.6);
     justify-content: center;
@@ -24,7 +25,7 @@ Navbar {
     color: bisque;
 }
 
-#navbar .navbar-container {
+#menu .menu-container {
 width: 90%;
 display: flex;
 align-items: center;
@@ -33,14 +34,14 @@ padding: 20px 0;
 
 }
 
-#navbar .navbar-container ul {
+#menu .menu-container ul {
     display: flex;
     list-style: none;
     font-weight: bold;
 
 }
 
-#navbar .navbar-container ul li {
+#menu .menu-container ul li {
     padding: 0 20px;
 }
 
@@ -64,20 +65,17 @@ padding: 20px 0;
     
 }
 
-#footer .socials i {
-    
-    padding: 20px;
-   
-    
-    margin-left: 0%;
-
-}
-
-#footer .rigths {
+.socials  {
     display: flex;
-    width: 25%;
-    margin: auto;
 }
 
+.socials i {
+    margin: 0 20px;
+    font-size: 1.7rem;
 
+}
+
+.rigths {
+    text-align: center;
+}
 

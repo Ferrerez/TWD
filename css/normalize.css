@@ -22,6 +22,7 @@
   
   body {
     margin: 0;
+    font-family: 'Concert One', cursive;
   }
   
   /**
@@ -62,7 +63,7 @@
    */
   
   pre {
-    font-family: monospace, monospace; /* 1 */
+   
     font-size: 1em; /* 2 */
   }
   
@@ -145,9 +146,6 @@
    * Remove the border on images inside links in IE 10.
    */
   
-  img {
-    border-style: none;
-  }
   
   /* Forms
      ========================================================================== */
@@ -347,3 +345,5 @@
   [hidden] {
     display: none;
   }
+
+ 
