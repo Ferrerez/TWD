@@ -52,7 +52,7 @@
         justify-content: center;
         align-items: center;
         color: black;
-        background: url('./img/backgroundelenco.jpg') center center/cover;
+        background: url('/img/backgroundelenco.jpg') center center/cover;
         background-color: rgba(0, 0, 0, 0.4);
         background-blend-mode:color ;
     }
