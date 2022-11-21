@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {
+        font-family: 'Concert One', cursive;
+        margin: 0;
+    }
+    .logo {
+        height: 40px;
+        width: auto;
+        
+        }
+    
+    /* Menu */
+    menu {
+        display: flex;
+        background-color: rgba(70, 66, 66, 0.6);
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        color: bisque;
+    }
+    
+    #menu .menu-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    
+    }
+    
+    #menu .menu-container ul {
+        display: flex;
+        list-style: none;
+        font-weight: bold;
+    
+    }
+    
+    #menu .menu-container ul li {
+        padding: 0 20px;
+    }
+    
+    /*Showcase*/
+    #showcase {
+        height: 200vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        background: url('./img/backgroundelenco.jpg') center center/cover;
+        background-color: rgba(0, 0, 0, 0.4);
+        background-blend-mode:color ;
+    }
+    
+    /*Footer*/
+    
+    #footer {
+        background: black;
+        color: white;
+        
+    }
+    
+    .socials  {
+        display: flex;
+    }
+    
+    .socials i {
+        margin: 0 20px;
+        font-size: 1.7rem;
+    
+    }
+    
+    .rigths {
+        text-align: center;
+    }
+    
+    
