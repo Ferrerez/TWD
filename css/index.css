@@ -17,12 +17,12 @@ body {
 /* Menu */
 menu {
     display: flex;
-    background-color: rgba(70, 66, 66, 0.6);
+    background-color: rgb(0, 0, 0);
     justify-content: center;
     position: fixed;
     top: 0;
     width: 100%;
-    color: bisque;
+    color: rgb(255, 255, 255);
 }
 
 #menu .menu-container {
@@ -45,7 +45,16 @@ padding: 20px 0;
     padding: 0 20px;
 }
 
-
+ /*Showcase*/
+ #showcase {
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    background-blend-mode:color ;
+}
 
 /*Footer*/
 
@@ -67,5 +76,9 @@ padding: 20px 0;
 
 .rigths {
     text-align: center;
+}
+
+a {
+    color: white;
 }
 
