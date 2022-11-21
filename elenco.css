@@ -52,14 +52,9 @@
         justify-content: center;
         align-items: center;
         color: black;
-        background: url('/img/backgroundelenco.png') center center/cover;
+        background: url('/img/backgroundindex.webp') center center/cover;
         background-color: rgba(0, 0, 0, 0.4);
         background-blend-mode:color ;
-    }
-
-    .showcase-container .p {
-        text-align: center;
-        font-size: 35px;
     }
     
     /*Footer*/
@@ -83,6 +78,5 @@
     .rigths {
         text-align: center;
     }
-   
     
     
