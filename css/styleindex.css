@@ -45,17 +45,7 @@ padding: 20px 0;
     padding: 0 20px;
 }
 
-/*Showcase*/
-#showcase {
-    height: 200vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    background: url('backgroundindex.png') center center/cover;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-blend-mode:color ;
-}
+
 
 /*Footer*/
 
